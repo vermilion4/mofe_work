@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.travel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keynote {
+    width: 300px;
+}
+
+div.h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.features-section {
+    background-color: #e6e6e6;
+}
+
+p.text-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.fas {
+    padding-top: 40px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+div.text-center.h4 {
+    padding-top: 20px;
+}
+
+.features-section {
+    padding-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0px 8px 8px 0px #a9a9a9;
+    height: 280px;
+}
+
+.taylor {
+    background: url('../images/Ellipse\ 1.png') no-repeat;
+    width: 380px;
+    height: 350px;
+    margin-left: 20px;
+}
+
+#taylor {
+    width: 500px;
+    margin-left: 20px;
+}
+
+@media (max-width: 767.9px) {
+    
+    .keynote {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    hr {
+        margin-top: 20px;
+        padding-top: 5px;
+    }
+
+    .taylor {
+        width: 90%;
+        
+    }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features-section {
+        margin-top: 10px;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    .fas {
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+
+    .card {
+        height: 350px;
+    }
+
+    .taylor,
+    #taylor {
+        margin-left: 0;
+    }
+
+    .taylor {
+        width: 300px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .taylor {
+        margin-left: 50px;
+
+    }
+}
